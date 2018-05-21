@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="slds-form-element slds-size_1-of-2">
-                            <label class="slds-form-element__label" for="firstname">First Name</label>
+                            <label class="slds-form-element__label" for="firstname">First</label>
                             <div class="slds-form-element__control">
                                 <input type="text" id="firstname" class="slds-input" maxlength="50" />
                             </div>
