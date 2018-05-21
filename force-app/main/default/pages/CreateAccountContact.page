@@ -1,0 +1,24 @@
+<apex:page standardController="Contact" extensions="CreateAccountContactController" tabStyle="Contact">
+    <apex:slds/>
+    <apex:form>
+        <apex:pageBlock mode="edit">
+            <apex:pageMessages />
+            <apex:pageBlockSection>
+                <apex:inputField value="{!newCon.FirstName}" /> 
+                <apex:inputField value="{!newCon.LastName}" />
+                <apex:inputField value="{!newCon.Birthdate}" />
+                <apex:inputField value="{!newCon.Email}" />
+                <apex:inputField value="{!newCon.Phone}" />
+                <apex:inputField value="{!newCon.MailingStreet}" />
+                <apex:inputField value="{!newCon.MailingCity}" />
+                <apex:inputField value="{!newCon.MailingState}" />
+                <apex:inputField value="{!newCon.MailingPostalCode}" />
+                <apex:inputField value="{!newCon.MailingCountry}" />
+                
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!save}" rerender="" value="Save" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
